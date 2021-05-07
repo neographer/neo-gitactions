@@ -33,8 +33,8 @@ publishing {
       name = "GitHubPackages"
       url = "https://maven.pkg.github.com/neographer/neo-gitactions"
       credentials {
-        username = System.getenv("GITHUB_ACTOR")
-        password = System.getenv("PAT")
+        username = System.getenv("USERNAME")
+        password = System.getenv("TOKEN")
       }
     }
   }
