@@ -24,10 +24,10 @@ test {
 
 publishing {
   publications {
-   myLibrary(MavenPublication) {
-            from components.java
-        }
-    }
+		bootJava(MavenPublication) {
+			artifact bootJar
+		}
+	}
   repositories {
     maven {
       name = "GitHubPackages"
