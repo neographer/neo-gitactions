@@ -1,0 +1,19 @@
+{
+  "name": "@neographer/neo-gitactions",
+  "version": "1.0.0",
+  "description": "Learning Git Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neographer/neo-gitactions.git"
+  },
+  "author": "Anoop Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neographer/neo-gitactions/issues"
+  },
+  "homepage": "https://github.com/neographer/neo-gitactions#readme"
+}
